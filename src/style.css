@@ -1,0 +1,186 @@
+/* Memuat font Pacifico dalam format .ttf */
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../assets/fonts/Pacifico-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Yrsa';
+    src: url('../assets/fonts/Yrsa-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Resetting some default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    font-family: Yrsa;
+}
+
+.logo img {
+    width: 50px; /* Ubah ukuran sesuai kebutuhan Anda */
+    height: 50px; /* Ubah ukuran sesuai kebutuhan Anda */
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 31px;
+    margin-left: 31px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.order-button {
+    background-color: #FAA052;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: Yrsa;
+}
+
+/* landing page */
+.landing-page {
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/bg.png'); /* Ganti dengan sumber gambar latar belakang yang sesuai */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Container for content */
+.content-container {
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(253, 165, 38, 0.50) 49.96%, rgba(149, 34, 28, 0.00) 100%); 
+    /* padding: 20px; */
+    padding-right: 0%;
+    padding-left: 20px;
+    margin: 5%;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    align-items: center; /* Vertikal centering */
+    justify-content: space-around; /* Horisontal centering with space between text and image */
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-bottom-right-radius: 350px;
+}
+
+/* Text styles */
+.text-and-image {
+    display: flex;
+    flex-direction: column; /* Stack text and image vertically */
+    align-items: flex-start; /* Align text and image to the left */
+    width: 50%; /* Adjust this value as needed */
+}
+
+.head1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 96px;
+    color: #ffff;
+}
+
+.head2 {
+    font-family: 'Ysra', cursive;
+    color: #392900;
+    font-family: Yrsa;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* Image styles */
+.img img {
+    border-radius: 350px 50px;
+    max-height: 100%; /* Ensure the image does not exceed the height of its container */
+    max-width: 100%; /* Ensure the image does not exceed the width of its container */
+    border: 10px solid #192D00;
+}
+
+/* About Us */
+.about-us {
+    width: auto;
+    height: 100%;
+    background-image: url('../assets/bg2.png'); /* Ganti dengan sumber gambar latar belakang yang sesuai */
+    background-size: cover;
+    background-position: center;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+/* Container for content */
+.content-about-us {
+    border-radius: 350px 50px 50px 0px;
+    background: #9E7434;
+    padding-right: 0%;
+    padding-left: 20px;
+    margin: 5%;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    align-items: center; /* Vertikal centering */
+    justify-content: space-around; /* Horisontal centering with space between text and image */
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 350px;
+}
+
+.head-sec{
+    margin: 0px;
+    font-weight: 'Ysra', cursive;
+    color: #392900;
+    font-family: Yrsa;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Text styles */
+.text-and-image-au {
+    display: flex;
+    flex-direction: column; /* Stack text and image vertically */
+    align-items: flex-start; /* Align text and image to the left */
+    width: 50%; /* Adjust this value as needed */
+}
+
+.text{
+    padding: 20px;
+    padding-left: 100px;
+    font-family: Yrsa;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    color:#ffff;
+}
